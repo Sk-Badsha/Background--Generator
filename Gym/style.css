@@ -12,7 +12,7 @@ body {
     left: 34px;
     top: 13px;
     display: inline-block;
-    border: 1px solid rgb(119, 12, 78);
+    border: 1px solid rgb(163, 14, 106);
 
 }
 
@@ -393,7 +393,7 @@ body {
 
 .active,
 .dot:hover {
-    background-color: #717171;
+    background-color: #ce0c6a;
 }
 
 .tax_benefit {
@@ -425,7 +425,7 @@ body {
     height: 30px;
     float: left;
     border-radius: 50%;
-    background: #DD2A1B;
+    background: #440f0a;
     margin: -3px 1px 0 0;
     cursor: pointer;
     margin-left: -10px;
@@ -440,7 +440,7 @@ body {
     font-size: 15px;
     text-align: center;
     line-height: 30px;
-    color: #fff;
+    color: rgb(19, 167, 39);
 }
 
 #donation-back-btn i {
