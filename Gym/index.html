@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewp ort" content="width=device-width, initial-scale=1.0">
+    <title>Give Love and Get Smile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <!-- logo -->
+        <div class="left">
+            <img src="/HTML/Html Tutorial/Project/Gym/adoption-09.jpg" alt="Logo">
+        </div>
+        <!--Navbar  -->
+        <div class="center">
+            <div class="navbar-upar">
+                <li><a href="#" class="active">WHO WE ARE</a></li>
+                <li><a href="#" class="active">WHAT WE DO</a></li>
+                <li><a href="#" class="active">VISION & MISSION</a></li>
+                <li><a href="#" class="active">MEDIA</a></li>
+                <li><a href="#" class="active">CONTACT US</a></li>
+            </div>
+
+        </div>
+        <!-- Buttons/Search -->
+        <div class="right">
+            <button class="btn1">Donate</button>
+            <button class="btn2">Contact Us</button>
+        </div>
+    </header>
+
+    <div class="image-hero">
+        <div class="container">
+            <div class="col-md-8">
+                <div class="banner-container">
+                    <div class="banner-form">
+                        <div class="donationpayment_form" style="display: block;">
+                            <div class="tab-donation-option">
+                                <br />
+                                <div class="userContent" style="display: none;"></div>
+
+                                <div class="tab-donation-currency-top">
+                                    <a class="donation-option-type cursor active" data-option="Once">Once</a>
+                                    <a class="donation-option-type cursor" data-option="Monthly">Monthly</a>
+                                </div>
+                                <div class="banner-form-title">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$hdndonationoptiontype"
+                                        id="hdndonationoptiontype" value="Once" />
+                                    <label>Select Donation Amount </label>
+                                </div>
+                                <div class="tab-donation-currency-top">
+                                </div>
+                                <div class="tab-donation-price-option" id="tab-donation-price-option">
+                                </div>
+                                <div class="donation-tooltip">
+                                    will help enrol 2 girls in school
+                                </div>
+                                <div class="donation-amout-main" id="donation-amout-main">
+                                    <div class="other_amount_option">
+                                        <p class="donation-amout-error"></p>
+                                        <input type="number" id="other-amount-enter" value="" class="other_amount"
+                                            placeholder="Other amount" data-currency="INR" data-themecolor="#B9A76E"
+                                            data-tab="4" autocomplete="off">
+                                    </div>
+                                </div>
+                                <div class="nationalityselect">
+                                    <div class="mar-Top-8">
+                                        <label>
+                                            <input type="radio" class="nationalityselectradio" name="rbtCitizen" checked
+                                                value="indian-citizen">
+                                            Indian Citizen</label>
+                                        <label>
+                                            <input type="radio" class="nationalityselectradio" name="rbtCitizen"
+                                                value="non-indian-citizen">
+                                            Foreign Citizen</label>
+                                    </div>
+                                </div>
+                                <div class="row " id="_Pre4" style="display: none;">
+                                    <div class="mar-Top-8">
+                                        <div class="alert alert-black" role="alert"
+                                            style="font-size: 14px; line-height: 22px;">
+                                            We are unable to accept international donations on our website due to recent
+                                            changes in the
+                                            government regulations regarding Foreign Donations (FCRA Act Amendment
+                                            2020). We apologize
+                                            for the inconvenience caused. If you are based overseas and would like to
+                                            contribute to our
+                                            work, you may visit the <a class="a-blue"
+                                                href="https://educategirls.us/donate/?utm_source=fegg&utm_medium=website&utm_campaign=donatepage"
+                                                target="_blank">website of Educate Girls US</a>. Thank you for your
+                                            interest in Educate
+                                            Girls.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="PassportOriginCountry" style="display: none;">
+                                    <div class="mar-Top-8">
+                                        <select name="ctl00$ContentPlaceHolder1$ddlPassportOriginCountry"
+                                            id="ddlPassportOriginCountry" class="form-control jv-passport-country">
+                                            <option value="select">Select Your Passport Origin Country</option>
+                                        </select>
+                                        <input type="hidden" name="ctl00$ContentPlaceHolder1$hdnPassportCountry"
+                                            id="hdnPassportCountry" />
+                                    </div>
+                                </div>
+                                <div class="row  mar-Top-8" id="stopindian" style="display: none;">
+                                    <div class="col-md-12">
+                                        <div class="alert alert-black" role="alert"
+                                            style="font-size: 14px; line-height: 22px;">
+                                            As per the Indian government regulations PAN number or Passport number is
+                                            required for
+                                            making a donation. Without that we cannot process your donation. We
+                                            apologize for the
+                                            inconvenience caused. If you wish to support our work, you may visit the <a
+                                                class="a-blue"
+                                                href="https://educategirls.us/donate/?utm_source=fegg&utm_medium=website&utm_campaign=donatepage"
+                                                target="_blank">website of Educate Girls US</a>. Thank you for your
+                                            interest in Educate
+                                            Girls.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row" id="stopnonindian" style="display: none;">
+                                    <div class="col-md-12">
+                                        <div class="alert alert-danger" role="alert"
+                                            style="font-size: 14px; line-height: 22px;">
+                                            <strong>Sorry, we are unable to process your donation.</strong><br />
+                                            Passport Number is mandatory. Thank you for your interest in donating to
+                                            Educate Girls.
+                                            <br />
+                                            <br />
+                                            You can donate us using
+                                            <a href="https://audaciousproject.org/ideas/2019/educate-girls/"
+                                                target="_blank">"The
+                                                Audacious Project"</a> or
+                                            <a href="https://www.globalgiving.org/projects/help-needy-in-remote-villages-in-india-fight-covid/"
+                                                target="_blank">"Global Giving"</a> or <a
+                                                href="https://www.crowdrise.com/educategirlsindia"
+                                                target="_blank">"Crowdrise"</a>
+                                            donation platform.
+                                            <br />
+                                            <br />
+                                            Thank you for your interest in donating to Educate Girls.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="col-md-12 mar-Top-8" id="divbearcharges" style="margin-top:10px;">
+                                        <span style="font-size:14px;"><input id="bearcharges" type="checkbox"
+                                                name="ctl00$ContentPlaceHolder1$bearcharges" /><label for="bearcharges">
+                                                I wish to bear
+                                                the 3% payment Gateway charges.</label></span>
+                                    </div>
+                                    <div class="col-md-12 mar-top-8" style="margin-top:10px;">
+                                        <button type="button" class="donation-btn" id="donation-btn"
+                                            data-cf-modified-cd0dfde38eddcbd93e11b766-="">Donate Now</button>
+                                    </div>
+                                    <div class="col-md-12 tax_benefit">
+                                        Registered under Section 8 of the Indian Companies Act, 2013 and under Section
+                                        12A of the Income
+                                        Tax Act, 1961. Donate to educate-girls
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="rightpos">
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,457 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('/html/Html Tutorial/Project/Gym/image2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.left {
+    position: absolute;
+    left: 34px;
+    top: 13px;
+    display: inline-block;
+    border: 1px solid rgb(119, 12, 78);
+
+}
+
+.left img {
+    width: 55px;
+    height: 40px;
+}
+
+.center {
+    
+    display: block;
+    width: 54%;
+    
+    top: 13px;
+    margin: 18px auto;
+    /* border: 1.4px solid rgb(107, 87, 152); */
+
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 13px;
+    padding: 4px;
+    display: inline-block;
+    border: 1px solid rgb(210, 201, 123);
+}
+
+.btn1 {
+    line-height: 6px;
+    font-size: 16px;
+    color: black;
+    padding: 8px 10px;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+
+.btn1:hover {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+}
+
+.btn2 {
+    line-height: 6px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: black;
+    background-color: white;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn2:hover {
+    background-color: #008CBA;
+    /* Green */
+    color: white;
+}
+
+.navbar-upar{
+    display: inline-block;
+}
+
+.navbar-upar li {
+        position:static;
+    display: inline-block;
+    padding: 1px;
+    font-size: 16px;
+
+}
+
+.navbar-upar li a {
+    color: rgb(72 36 36);
+    background-color: rgb(125, 120, 120);
+    text-decoration: none;
+    padding-right: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 6px;
+    font-size: 16px;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.navbar-upar li a:hover {
+    text-decoration: underline;
+    background-color: #c92c1e;
+    color: #333;
+    
+}
+
+.container {
+    width: 100%;
+}
+
+.nationalityselect label {
+    width: 45%;
+}
+
+.banner-container {
+    max-width: 1176px;
+    padding: 0 15px;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.mar-Top-8 {
+    margin-top: 10px !important;
+}
+
+.banner-form {
+    float: left;
+    max-width: 420px;
+    height: auto;
+    margin: 40px 10px 40px 20px;
+    background: rgb(234 234 234 / 0%);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .15);
+    width: 100%
+}
+.rightform{
+    border:2px solid red;
+        float: right;
+        max-width: 420px;
+        height: auto;
+        margin: 40px 10px 40px 20px;
+        background: rgb(234 234 234 / 0%);
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, .15);
+        width: 100%
+}
+@media only screen and (max-width: 760px) {
+    .banner-form {
+        max-width: 100%;
+        padding: 20px 15px;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .banner-form {
+        float: left;
+        margin: 30px auto 15px auto;
+    }
+}
+
+.banner-form-title {
+    float: left;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    color: #333;
+    padding: 0;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.tab-donation-option {
+    float: left;
+    width: 100%;
+}
+
+.donation-tooltip-mobile {
+    display: none;
+}
+
+.tab-donation-option-top {
+    float: left;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.tab-donation-option-top a.active {
+    color: #fff;
+    font-size: 16px;
+    background: #DD2A1B;
+}
+
+.tab-donation-option-top a {
+    float: left;
+    width: 50%;
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    line-height: 46px;
+    background: #eee;
+    border-radius: 10px 0 0 10px;
+    text-transform: lowercase;
+}
+
+.tab-donation-option-top a:last-child {
+    border-radius: 0 10px 10px 0;
+}
+
+.tab-donation-currency-top {
+    float: left;
+    width: 100%;
+    margin: 15px 0;
+    margin-top: 0px;
+}
+
+.tab-donation-currency-top a.active {
+    color: #fff;
+    font-size: 16px;
+    background: #DD2A1B;
+}
+
+.tab-donation-currency-top a {
+    float: left;
+    width: 50%;
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    line-height: 46px;
+    background: #eee;
+    border-radius: 10px 0 0 10px;
+    /*text-transform: lowercase;*/
+}
+
+.tab-donation-currency-top a:last-child {
+    border-radius: 0 10px 10px 0;
+}
+
+.tab-donation-price-option {
+    float: left;
+    width: 100%;
+    margin: 3px 0 10px 0;
+}
+
+.tab-donation-price-option a {
+    float: left;
+    width: 32%;
+    margin: 0 2% 0 0;
+    position: relative;
+    text-decoration: none;
+    color: #333;
+    line-height: 46px;
+    background: #eee;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.tab-donation-price-option a.active:before {
+    width: 0;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -21px;
+    right: 0;
+    margin: auto;
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 9px solid #333;
+}
+
+.tab-donation-price-option a.active:after {
+    width: 0;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -21px;
+    right: 0;
+    margin: auto;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #fff;
+}
+
+.tab-donation-price-option a.active {
+    color: #fff;
+    font-size: 18px;
+    background: #DD2A1B;
+}
+
+.tab-donation-price-option a:last-child {
+    margin: 0;
+}
+
+.donation-amout-error {
+    float: left;
+    font-size: 16px;
+    font-family: Calibri;
+    padding-top: 0px;
+    color: #DD2A1B;
+    margin: 3px;
+}
+
+.d-price-tag {
+    width: 32%;
+    margin: 0 2% 0 0;
+    float: left;
+}
+
+.d-price-tag a {
+    float: left;
+    width: 100%;
+    position: relative;
+    text-decoration: none;
+    color: #333;
+    line-height: 46px;
+    background: #eee;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.other_amount_option {
+    width: 100%;
+    margin: 0;
+    float: left;
+}
+
+.other_amount_option input {
+    width: 100%;
+    height: 46px;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    background: #eee;
+    text-transform: lowercase;
+    margin-bottom: 15px;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+.donation-notice-charge {
+    font-size: 10px;
+    font-family: Calibri;
+    padding-top: 4px;
+}
+
+.donation-tooltip {
+    float: left;
+    width: 100%;
+    margin: 9px 0 19px 0;
+    text-align: center;
+    font-size: 15px;
+    padding: 12px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+}
+
+.donation-amout-main {
+    float: left;
+    width: 100%;
+}
+
+.tab-donation-price-option a {
+    float: left;
+    width: 32%;
+    margin: 0 2% 0 0;
+    position: relative;
+    text-decoration: none;
+    color: #333;
+    line-height: 46px;
+    background: #eee;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+.tax_benefit {
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    float: right;
+    width: 100%;
+}
+
+.donation-btn {
+    float: left;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    background: #DD2A1B;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 50px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.banner-form-title a {
+    width: 30px;
+    height: 30px;
+    float: left;
+    border-radius: 50%;
+    background: #DD2A1B;
+    margin: -3px 1px 0 0;
+    cursor: pointer;
+    margin-left: -10px;
+}
+
+.donation-btn:hover {
+    background: #DD2A1B;
+    color: #333;
+}
+
+.banner-form-title a i {
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+}
+
+#donation-back-btn i {
+    margin: 0 8px;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+.donation-btn i {
+    margin: 0 10px 0 0;
+    cursor: pointer;
+}
+
+
